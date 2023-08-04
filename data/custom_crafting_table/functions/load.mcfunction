@@ -1,0 +1,10 @@
+scoreboard objectives add one dummy
+scoreboard objectives add Items.1.Count dummy
+scoreboard objectives add Items.2.Count dummy
+scoreboard objectives add Items.3.Count dummy
+scoreboard objectives add Items.10.Count dummy
+scoreboard objectives add Items.11.Count dummy
+scoreboard objectives add Items.12.Count dummy
+scoreboard objectives add Items.19.Count dummy
+scoreboard objectives add Items.20.Count dummy
+scoreboard objectives add Items.21.Count dummy
