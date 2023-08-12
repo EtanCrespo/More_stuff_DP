@@ -7,6 +7,9 @@ execute as @a[nbt={Inventory:[{id:"minecraft:crafting_table",tag:{display:{Name:
 #remplace en permanence les slots tels qu'ils sont censés être
 execute at @e[type=item_display,nbt={item:{tag:{CustomModelData:32119},id:"minecraft:crafting_table",Count:1b}}] run function custom_crafting_table:slots
 
+#commande pour nettoyer l'espace des résultats
+execute as @e[type=item_display,nbt={item:{id:"minecraft:crafting_table",tag:{CustomModelData:32119}}},scores={craftID=0}] at @s run function custom_crafting_table:clear_result
+
 #commandes a exécuter en cas de destruction du baril
 execute as @e[type=item_display,nbt={item:{tag:{CustomModelData:32119},id:"minecraft:crafting_table",Count:1b}}] at @s run execute if block ~ ~-383 ~ air run function custom_crafting_table:destroy
 

@@ -1,9 +1,0 @@
-data modify block ~ ~-1 ~ Items append value {tag:{CustomModelData:2,display:{Name:'{"text":""}'}},Slot:1b,id:"minecraft:light_gray_stained_glass_pane",Count:1b}
-data modify block ~ ~-1 ~ Items append value {tag:{CustomModelData:2,display:{Name:'{"text":""}'}},Slot:2b,id:"minecraft:light_gray_stained_glass_pane",Count:1b}
-data modify block ~ ~-1 ~ Items append value {tag:{CustomModelData:2,display:{Name:'{"text":""}'}},Slot:3b,id:"minecraft:light_gray_stained_glass_pane",Count:1b}
-data modify block ~ ~-1 ~ Items append value {tag:{CustomModelData:2,display:{Name:'{"text":""}'}},Slot:10b,id:"minecraft:light_gray_stained_glass_pane",Count:1b}
-data modify block ~ ~-1 ~ Items append value {tag:{CustomModelData:2,display:{Name:'{"text":""}'}},Slot:11b,id:"minecraft:light_gray_stained_glass_pane",Count:1b}
-data modify block ~ ~-1 ~ Items append value {tag:{CustomModelData:2,display:{Name:'{"text":""}'}},Slot:12b,id:"minecraft:light_gray_stained_glass_pane",Count:1b}
-data modify block ~ ~-1 ~ Items append value {tag:{CustomModelData:2,display:{Name:'{"text":""}'}},Slot:19b,id:"minecraft:light_gray_stained_glass_pane",Count:1b}
-data modify block ~ ~-1 ~ Items append value {tag:{CustomModelData:2,display:{Name:'{"text":""}'}},Slot:20b,id:"minecraft:light_gray_stained_glass_pane",Count:1b}
-data modify block ~ ~-1 ~ Items append value {tag:{CustomModelData:2,display:{Name:'{"text":""}'}},Slot:21b,id:"minecraft:light_gray_stained_glass_pane",Count:1b}
