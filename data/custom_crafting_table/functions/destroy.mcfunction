@@ -1,4 +1,4 @@
-execute as @s unless entity @s[type=player] run kill @s
+execute unless entity @s[type=player] run kill @s
 kill @e[type=item,nbt={Item:{id:"minecraft:black_stained_glass_pane",Count:1b}},limit=16,sort=nearest]
 kill @e[type=item,nbt={Item:{id:"minecraft:light_gray_stained_glass_pane",Count:1b}},limit=16,sort=nearest]
 kill @e[type=item,nbt={Item:{id:"minecraft:barrel",Count:1b}},limit=1,sort=nearest]
