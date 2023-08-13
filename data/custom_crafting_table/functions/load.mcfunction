@@ -8,3 +8,4 @@ scoreboard objectives add Items.12.Count dummy
 scoreboard objectives add Items.19.Count dummy
 scoreboard objectives add Items.20.Count dummy
 scoreboard objectives add Items.21.Count dummy
+scoreboard objectives add Slot.Items dummy

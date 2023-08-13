@@ -1,3 +1,3 @@
-function custom_crafting_table:reduce_slot_3
+function custom_crafting_table:reduce_slot_3 
 function custom_crafting_table:reduce_slot_11
 function custom_crafting_table:reduce_slot_19
