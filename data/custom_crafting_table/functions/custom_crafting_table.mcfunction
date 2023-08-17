@@ -11,7 +11,7 @@ execute as @e[name="custom_craft",type=bat] at @s run function custom_crafting_t
 execute as @a[nbt={Inventory:[{id:"minecraft:crafting_table",tag:{display:{Name:'{"text":"custom"}'}}}]}] run function custom_crafting_table:custom_crafting_table_get
 
 #commandes a exécuter en cas de destruction du baril
-execute as @e[type=item_display,nbt={item:{tag:{CustomModelData:32119},id:"minecraft:crafting_table",Count:1b}}] at @s run execute if block ~ ~-383 ~ air run function custom_crafting_table:destroy
+execute as @e[type=item_display,nbt={item:{tag:{CustomModelData:32119},id:"minecraft:crafting_table",Count:1b}}] at @s run execute if block ~ ~-49 ~ air run function custom_crafting_table:destroy
 
 #on évite qu'un joueur ait les glass pane et la table
 clear @a minecraft:black_stained_glass_pane{display:{Name:'{"text":""}'}}
