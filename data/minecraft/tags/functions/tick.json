@@ -2,7 +2,7 @@
   "replace": false,
   "values": [
     "more_stuff:loop",
-    "custom_crafting_table:loop",
-    "custom_craft:loop"
+    "custom_craft:loop",
+    "custom_crafting_table:loop"
   ]
 }
