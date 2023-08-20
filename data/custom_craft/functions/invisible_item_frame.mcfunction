@@ -6,7 +6,7 @@ execute at @s if block ~ ~-49 ~ barrel{Items:[{tag:{Potion:"minecraft:invisibili
 execute at @s if block ~ ~-49 ~ barrel{Items:[{tag:{Potion:"minecraft:long_invisibility"}},{id:"minecraft:item_frame"}]} run scoreboard players set @s craftID 91422
 
 #on place le bon item en sortie
-execute at @s[scores={craftID=91422}] run item replace block ~ ~-49 ~ container.14 with minecraft:item_frame{display:{Lore:['{"translate":"effect.minecraft.invisibility","italic":false,"color":"blue"}']},EntityTag:{Invisible:1b,Tags:[invisible.frame]}}
+execute at @s[scores={craftID=91422}] run item replace block ~ ~-49 ~ container.14 with minecraft:item_frame{display:{Name:'{"translate":"item.minecraft.item_frame","italic": false,"extra":[{"text": " (","italic": false},{"translate":"effect.minecraft.invisibility","italic":false,"color":"blue"},{"text": ")","italic": false}]}'},EntityTag:{Invisible:1b,Tags:[invisible.frame]}}
 
 #on tue l'item si l'établi est détruit
 execute at @s[scores={craftID=91422}] positioned ~ ~-49 ~ run kill @e[type=item,distance=..1,limit=1,sort=nearest,nbt={Item:{tag:{display:{Lore:['{"translate":"effect.minecraft.invisibility","italic":false,"color":"blue"}']}}}}]
