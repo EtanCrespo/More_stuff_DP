@@ -12,4 +12,7 @@ scoreboard objectives remove kill_int
 scoreboard objectives remove one
 scoreboard objectives remove right_click
 scoreboard objectives remove sneak
+scoreboard objectives remove X
+scoreboard objectives remove Y
+scoreboard objectives remove Z
 datapack disable "file/More_stuff_DP"

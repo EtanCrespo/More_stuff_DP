@@ -5,3 +5,4 @@ function more_stuff:levitation_stick
 function more_stuff:flying_stick
 function more_stuff:kill_int
 function more_stuff:invisible_item_frame
+function more_stuff:compass
