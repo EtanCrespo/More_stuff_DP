@@ -20,7 +20,6 @@ give @s[gamemode=creative] minecraft:stick{CustomModelData:2,display:{Name:'{"te
 #wrench
 give @s[gamemode=creative] minecraft:stick{CustomModelData:23185,display:{Name:'{"translate":"ms.item:wrench","italic":false}'}}
 
-
 #invisible_item_frame
 give @s[gamemode=creative] minecraft:item_frame{display:{Name:'{"translate":"item.minecraft.item_frame","italic": false,"extra":[{"text": " (","italic": false},{"translate":"effect.minecraft.invisibility","italic":false,"color":"blue"},{"text": ")","italic": false}]}'},EntityTag:{Invisible:1b,Tags:[invisible.frame]}}
 
