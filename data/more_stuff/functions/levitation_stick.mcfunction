@@ -1,2 +1,1 @@
-effect give @a[nbt={SelectedItem:{tag:{display:{Name:'{"text":"levitation-stick","italic":false}'}}}},scores={sneak=1..}] minecraft:levitation 2 0 true
-#scoreboard players reset @a sneak
+effect give @a[nbt={SelectedItem:{tag:{display:{Name:'{"translate":"ms.item:levitation_stick","italic":false}'}}}},scores={sneak=1..}] minecraft:levitation 2 0 true

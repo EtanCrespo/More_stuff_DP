@@ -3,7 +3,7 @@
 give @s[gamemode=creative] minecraft:fishing_rod{CustomModelData:718116,display:{Name:'{"translate":"ms.item:grappling_gun","italic":false}'},Unbreakable:1b}
 
 #levitation_stick
-give @s[gamemode=creative] minecraft:stick{CustomModelData:1,display:{Name:'{"text":"levitation-stick","italic":false}'}}
+give @s[gamemode=creative] minecraft:stick{CustomModelData:12522,display:{Name:'{"translate":"ms.item:levitation_stick","italic":false}'}}
 
 #potions_recipes
 give @s[gamemode=creative] minecraft:paper{CustomModelData:1615,display:{Name:'{"translate":"ms.item:potions_recipes","italic":false}'}}

@@ -1,7 +1,7 @@
 #pour clear le résultat/ to clear the result if there's nothing
 execute at @s[scores={craftID=69420}] if block ~ ~-49 ~ barrel{Items:[{tag:{CustomModelData:2,display:{Name:'{"text":""}'}},Slot:14b,id:"minecraft:light_gray_stained_glass_pane"}]} run function custom_crafting_table:reduce_input
 
-#pour détecter les items en entrée et mettre le bon score/ detect the correct ingredients to assign th correct score
+#pour détecter les items en entrée et mettre le bon score/ detect the correct ingredients to assign the correct score
 execute at @s if block ~ ~-49 ~ barrel{Items:[{Slot:1b,id:"minecraft:light_gray_stained_glass_pane",tag:{CustomModelData:2,display:{Name:'{"text":""}'}}},{Slot:2b,id:"minecraft:light_gray_stained_glass_pane",tag:{CustomModelData:2,display:{Name:'{"text":""}'}}},{Slot:3b,id:"minecraft:light_gray_stained_glass_pane",tag:{CustomModelData:2,display:{Name:'{"text":""}'}}},{Slot:10b,id:"minecraft:light_gray_stained_glass_pane",tag:{CustomModelData:2,display:{Name:'{"text":""}'}}},{Slot:11b,id:"minecraft:light_gray_stained_glass_pane",tag:{CustomModelData:2,display:{Name:'{"text":""}'}}},{Slot:12b,id:"minecraft:light_gray_stained_glass_pane",tag:{CustomModelData:2,display:{Name:'{"text":""}'}}},{Slot:19b,id:"minecraft:light_gray_stained_glass_pane",tag:{CustomModelData:2,display:{Name:'{"text":""}'}}},{Slot:20b,id:"minecraft:light_gray_stained_glass_pane",tag:{CustomModelData:2,display:{Name:'{"text":""}'}}},{Slot:21b,id:"minecraft:light_gray_stained_glass_pane",tag:{CustomModelData:2,display:{Name:'{"text":""}'}}}]} run scoreboard players set @s craftID 69420
 
 #on place le bon item en sortie/ correct output item
