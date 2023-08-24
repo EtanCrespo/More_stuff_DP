@@ -25,3 +25,6 @@ give @s[gamemode=creative] minecraft:item_frame{display:{Name:'{"translate":"ite
 
 #invisible_glow_item_frame
 give @s[gamemode=creative] minecraft:glow_item_frame{display:{Name:'{"translate":"item.minecraft.glow_item_frame","italic": false,"extra":[{"text": " (","italic": false},{"translate":"effect.minecraft.invisibility","italic":false,"color":"blue"},{"text": ")","italic": false}]}'},EntityTag:{Invisible:1b,Tags:[invisible.frame]}}
+
+#rainbow_wool
+give @s[gamemode=creative] minecraft:bat_spawn_egg{CustomModelData:1819,display:{Name:'{"translate":"ms.item:rainbow_wool","italic":false}'},EntityTag:{NoAI:1b}}
