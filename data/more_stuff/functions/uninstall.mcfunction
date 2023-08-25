@@ -10,7 +10,7 @@ scoreboard objectives remove Items.21.Count
 scoreboard objectives remove Items.3.Count
 scoreboard objectives remove kill_int
 scoreboard objectives remove one
-scoreboard objectives remove right_click
+scoreboard objectives remove right_click_carrot
 scoreboard objectives remove sneak
 scoreboard objectives remove X
 scoreboard objectives remove Y

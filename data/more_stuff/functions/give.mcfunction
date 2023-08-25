@@ -28,3 +28,6 @@ give @s[gamemode=creative] minecraft:glow_item_frame{display:{Name:'{"translate"
 
 #rainbow_wool
 give @s[gamemode=creative] minecraft:bat_spawn_egg{CustomModelData:1819,display:{Name:'{"translate":"ms.item:rainbow_wool","italic":false}'},EntityTag:{NoAI:1b}}
+
+#rainbow_bed
+give @s[gamemode=creative] minecraft:armor_stand{CustomModelData:1819,display:{Name:'{"translate":"ms.item:rainbow_bed","italic":false}'},EntityTag:{Invisible:1b,CustomName:'{"text": "rainbow_bed"}'}}

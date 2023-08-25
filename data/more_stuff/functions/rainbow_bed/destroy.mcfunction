@@ -1,0 +1,4 @@
+kill @s[type=!player]
+execute if entity @s[type=item_display] run kill @e[type=item,nbt={Item:{id:"minecraft:white_bed",Count:1b}},limit=1,sort=nearest]
+execute if entity @s[type=item_display] unless entity @p[gamemode=creative] run summon minecraft:item ~ ~-49 ~ {Item:{id:"minecraft:armor_stand",Count:1b,tag:{EntityTag:{Invisible:1b,CustomName:'{"text": "rainbow_bed"}'},display:{Name:'{"translate":"ms.item:rainbow_bed","italic":false}'},CustomModelData:1819}}}
+execute if entity @s[type=armor_stand] unless entity @p[gamemode=creative] run summon minecraft:item ~ ~ ~ {Item:{id:"minecraft:armor_stand",Count:1b,tag:{EntityTag:{Invisible:1b,CustomName:'{"text": "rainbow_bed"}'},display:{Name:'{"translate":"ms.item:rainbow_bed","italic":false}'},CustomModelData:1819}}}
