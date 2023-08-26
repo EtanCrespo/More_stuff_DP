@@ -6,3 +6,5 @@ scoreboard objectives add X dummy
 scoreboard objectives add Y dummy
 scoreboard objectives add Z dummy
 scoreboard objectives add Rotation dummy
+scoreboard objectives add Sheared dummy
+scoreboard objectives add dropped_rainbow_wool dummy

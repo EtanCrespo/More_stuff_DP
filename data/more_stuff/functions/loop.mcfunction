@@ -7,3 +7,4 @@ function more_stuff:invisible_item_frame
 function more_stuff:compass
 function more_stuff:rainbow_wool
 function more_stuff:rainbow_bed
+function more_stuff:jeb_

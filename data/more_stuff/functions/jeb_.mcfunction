@@ -1,0 +1,4 @@
+execute as @e[type=sheep,name="jeb_"] store result score @s Sheared run data get entity @s Sheared 1
+execute as @e[type=sheep,name="jeb_",scores={Sheared=0}] run scoreboard players set @s dropped_rainbow_wool 0
+execute as @e[type=sheep,name="jeb_",scores={Sheared=1}] at @s unless entity @s[scores={dropped_rainbow_wool=1}] run summon item ~ ~ ~ {Item:{id:"minecraft:bat_spawn_egg",Count:1b,tag:{EntityTag:{NoAI:1b},display:{Name:'{"translate":"ms.item:rainbow_wool","italic":false}'},CustomModelData:1819}}}
+execute as @e[type=sheep,name="jeb_",scores={Sheared=1}] at @s if entity @e[type=item,distance=0,nbt={Item:{id:"minecraft:bat_spawn_egg",Count:1b,tag:{EntityTag:{NoAI:1b},display:{Name:'{"translate":"ms.item:rainbow_wool","italic":false}'},CustomModelData:1819}}}] run scoreboard players set @s dropped_rainbow_wool 1
