@@ -6,3 +6,4 @@ function custom_craft:slow_feather
 function custom_craft:wrench
 function custom_craft:levitation_stick
 function custom_craft:disenchantment_book
+function custom_craft:rainbow_bed
