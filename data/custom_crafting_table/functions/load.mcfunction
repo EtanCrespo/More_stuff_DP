@@ -1,3 +1,4 @@
+scoreboard objectives add craftID dummy
 scoreboard objectives add one dummy
 scoreboard objectives add Items.1.Count dummy
 scoreboard objectives add Items.2.Count dummy
@@ -8,3 +9,5 @@ scoreboard objectives add Items.12.Count dummy
 scoreboard objectives add Items.19.Count dummy
 scoreboard objectives add Items.20.Count dummy
 scoreboard objectives add Items.21.Count dummy
+scoreboard objectives add recipe.number dummy
+scoreboard objectives add recipe.show_hide dummy

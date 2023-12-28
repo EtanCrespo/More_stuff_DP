@@ -1,15 +1,5 @@
-scoreboard objectives remove craftID
-scoreboard objectives remove Items.1.Count
-scoreboard objectives remove Items.10.Count
-scoreboard objectives remove Items.11.Count
-scoreboard objectives remove Items.12.Count
-scoreboard objectives remove Items.19.Count
-scoreboard objectives remove Items.2.Count
-scoreboard objectives remove Items.20.Count
-scoreboard objectives remove Items.21.Count
-scoreboard objectives remove Items.3.Count
+function custom_crafting_table:uninstall
 scoreboard objectives remove kill_int
-scoreboard objectives remove one
 scoreboard objectives remove right_click_carrot
 scoreboard objectives remove sneak
 scoreboard objectives remove X

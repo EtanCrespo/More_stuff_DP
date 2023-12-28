@@ -16,3 +16,6 @@ execute as @e[type=item_display,nbt={item:{tag:{CustomModelData:32119},id:"minec
 
 #sert pour la fonction reduce slot pour décrémenter le score de stockage de 1
 scoreboard players set @e[type=item_display,nbt={item:{id:"minecraft:crafting_table",tag:{CustomModelData:32119}}}] one 1
+
+#pour cacher/montrer les recettes
+function custom_crafting_table:showhide_recipes
