@@ -1,1 +1,1 @@
-give @s[gamemode=creative] minecraft:bat_spawn_egg{EntityTag:{CustomName:'{"text":"custom_craft"}',id:armor_stand,Invisible:1b,Small:1b},CustomModelData:32119,display:{Name:'{"translate":"cct.item:custom_crafting_table","italic":false}'}}
+give @s[gamemode=creative] minecraft:bat_spawn_egg{EntityTag:{CustomName:'{"text":"custom_craft"}',id:armor_stand,Invisible:1b,Small:1b},CustomModelData:32119,display:{Name:'{"translate":"cct.item:custom_crafting_table","italic":false,"fallback": "Custom Crafting Table"}'}}

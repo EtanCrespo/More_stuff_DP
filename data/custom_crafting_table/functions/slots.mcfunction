@@ -7,7 +7,7 @@ data modify block ~ ~-49 ~ Items append value {tag:{CustomModelData:2,display:{N
 data modify block ~ ~-49 ~ Items append value {tag:{CustomModelData:2,display:{Name:'{"text":""}'}},Slot:6b,id:"minecraft:black_stained_glass_pane",Count:1b}
 data modify block ~ ~-49 ~ Items append value {tag:{CustomModelData:2,display:{Name:'{"text":""}'}},Slot:7b,id:"minecraft:black_stained_glass_pane",Count:1b}
 data modify block ~ ~-49 ~ Items append value {tag:{CustomModelData:2,display:{Name:'{"text":""}'}},Slot:8b,id:"minecraft:black_stained_glass_pane",Count:1b}
-data modify block ~ ~-49 ~ Items append value {tag:{CustomModelData:2,display:{Name:'{"text":""}'}},Slot:9b,id:"minecraft:black_stained_glass_pane",Count:1b}
+
 data modify block ~ ~-49 ~ Items prepend value {tag:{CustomModelData:2,display:{Name:'{"text":""}'}},Slot:10b,id:"minecraft:light_gray_stained_glass_pane",Count:1b}
 data modify block ~ ~-49 ~ Items prepend value {tag:{CustomModelData:2,display:{Name:'{"text":""}'}},Slot:11b,id:"minecraft:light_gray_stained_glass_pane",Count:1b}
 data modify block ~ ~-49 ~ Items prepend value {tag:{CustomModelData:2,display:{Name:'{"text":""}'}},Slot:12b,id:"minecraft:light_gray_stained_glass_pane",Count:1b}
@@ -21,10 +21,7 @@ data modify block ~ ~-49 ~ Items prepend value {tag:{CustomModelData:2,display:{
 data modify block ~ ~-49 ~ Items prepend value {tag:{CustomModelData:2,display:{Name:'{"text":""}'}},Slot:20b,id:"minecraft:light_gray_stained_glass_pane",Count:1b}
 data modify block ~ ~-49 ~ Items prepend value {tag:{CustomModelData:2,display:{Name:'{"text":""}'}},Slot:21b,id:"minecraft:light_gray_stained_glass_pane",Count:1b}
 data modify block ~ ~-49 ~ Items append value {tag:{CustomModelData:2,display:{Name:'{"text":""}'}},Slot:22b,id:"minecraft:black_stained_glass_pane",Count:1b}
-#la ligne suivante changera de fichier pour être gérée à part
-data modify block ~ ~-49 ~ Items append value {tag:{CustomModelData:2,display:{Name:'{"text":""}'}},Slot:23b,id:"minecraft:black_stained_glass_pane",Count:1b}
-#la ligne suivante changera de fichier pour être gérée à part
-data modify block ~ ~-49 ~ Items append value {tag:{CustomModelData:2,display:{Name:'{"text":""}'}},Slot:24b,id:"minecraft:knowledge_book",Count:1b}
-#la ligne suivante changera de fichier pour être gérée à part
-data modify block ~ ~-49 ~ Items append value {tag:{CustomModelData:2,display:{Name:'{"text":""}'}},Slot:25b,id:"minecraft:black_stained_glass_pane",Count:1b}
+
+
+
 data modify block ~ ~-49 ~ Items append value {tag:{CustomModelData:2,display:{Name:'{"text":""}'}},Slot:26b,id:"minecraft:black_stained_glass_pane",Count:1b}

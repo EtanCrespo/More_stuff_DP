@@ -7,4 +7,8 @@ execute as @a[nbt={Inventory:[{id:"minecraft:crafting_table",tag:{display:{Name:
 #on évite qu'un joueur ait les glass pane et la table
 clear @a minecraft:black_stained_glass_pane{display:{Name:'{"text":""}'}}
 clear @a minecraft:light_gray_stained_glass_pane{display:{Name:'{"text":""}'}}
-clear @a minecraft:barrel{display:{Name:'{"translate":"cct.gui:custom_crafting_table","italic":false}'}}
+clear @a minecraft:barrel{display:{Name:'{"translate":"cct.gui:custom_crafting_table","italic":false,"fallback":"Custom Crafting Table"}'}}
+clear @a minecraft:knowledge_book{display:{Name:'{"translate":"cct.gui:hide_recipe","italic":false,"color": "white","fallback": "Hide Recipes"}'}}
+clear @a minecraft:knowledge_book{display:{Name:'{"translate":"cct.gui:show_recipe","italic":false,"color": "white","fallback": "Show Recipes"}'}}
+clear @a minecraft:arrow{display:{Name:'{"translate":"cct.gui:next_page","italic":false,"fallbakc":"Next Page"}'}}
+clear @a minecraft:arrow{display:{Name:'{"translate":"cct.gui:previous_page","italic":false,"fallbakc":"Previous Page"}'}}

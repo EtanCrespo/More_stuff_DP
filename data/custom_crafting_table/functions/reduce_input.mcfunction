@@ -3,6 +3,7 @@ scoreboard players operation @s Items.1.Count -= @s one
 execute store result block ~ ~-49 ~ Items[1].Count int 1 run scoreboard players get @s Items.1.Count
 data modify block ~ ~-49 ~ Items prepend value {Slot:1b,tag:{CustomModelData:2,display:{Name:'{"text":""}'}},id:"minecraft:light_gray_stained_glass_pane",Count:1b}
 
+#input 2...
 scoreboard players operation @s Items.2.Count -= @s one
 execute store result block ~ ~-49 ~ Items[2].Count int 1 run scoreboard players get @s Items.2.Count
 data modify block ~ ~-49 ~ Items prepend value {Slot:2b,tag:{CustomModelData:2,display:{Name:'{"text":""}'}},id:"minecraft:light_gray_stained_glass_pane",Count:1b}
