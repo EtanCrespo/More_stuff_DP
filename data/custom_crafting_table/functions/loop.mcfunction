@@ -4,7 +4,6 @@ execute as @e[type=item_display,tag=cct,scores={craftID=0}] at @s run function c
 #remplace en permanence les slots tels qu'ils sont censés être
 execute at @e[type=item_display,tag=cct] run function custom_crafting_table:slots
 
-execute as @e[type=item_display,tag=cct] run function custom_craft:recipes
 
 function custom_crafting_table:custom_crafting_table
 
@@ -19,3 +18,6 @@ scoreboard players set @e[type=item_display,tag=cct] one 1
 
 #pour cacher/montrer les recettes
 execute as @e[type=item_display,tag=cct] at @s run function custom_crafting_table:showhide_recipes
+
+#pour le bon fonctionnement des recettes
+execute as @e[type=item_display,tag=cct] run function custom_craft:recipes
