@@ -12,3 +12,6 @@ execute at @s[scores={craftID=49195}] positioned ~ ~-49 ~ run kill @e[type=item,
 
 #on vérifie la zone d'input pour remettre le score à 0/ verify the ingredient to reset the score to 0
 execute at @s[scores={craftID=49195}] unless block ~ ~-49 ~ barrel{Items:[{id:"minecraft:experience_bottle"},{id:"minecraft:book"},{id:"minecraft:grindstone"}]} run scoreboard players set @s craftID 0
+
+#on place la bonne recette dans l'emplacement
+execute if entity @s[scores={recipe.show_hide=1,recipe.number=1}] at @s run data modify block ~ ~-49 ~ Items append value {tag:{CustomModelData:49195,display:{Name:'{"text":"test"}'}},Slot:9b,id:"minecraft:knowledge_book",Count:1b}
