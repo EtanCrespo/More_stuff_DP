@@ -1,6 +1,6 @@
 #on initialise le score recipe.number à 0 et on empêche le débordement de valeur
-execute unless entity @s[scores={recipe.number=1..}] run scoreboard players set @s recipe.number 9
 execute unless entity @s[scores={recipe.number=..9}] run scoreboard players set @s recipe.number 1
+execute unless entity @s[scores={recipe.number=1..}] run scoreboard players set @s recipe.number 9
 
 #changement du score recipe.number au clic des flèches
 execute if entity @s[scores={recipe.show_hide=1}] unless block ~ ~-49 ~ minecraft:barrel{Items:[{tag:{CustomModelData:16185,display:{Name:'{"translate":"cct.gui:previous_page","italic":false,"fallbakc":"Previous Page"}'}},Slot:23b,id:"minecraft:arrow",Count:1b}]} run scoreboard players operation @s recipe.number -= @s one
