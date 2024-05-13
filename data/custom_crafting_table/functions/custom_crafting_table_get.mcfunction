@@ -1,2 +1,2 @@
-clear @s minecraft:crafting_table{display:{Name:'"custom"'}} 1
-give @s minecraft:bat_spawn_egg{EntityTag:{CustomName:'{"text":"custom_craft"}',id:armor_stand,Invisible:1b,Small:1b},CustomModelData:32119,display:{Name:'{"translate":"cct.item:custom_crafting_table","italic":false}'}}
+clear @s minecraft:crafting_table[minecraft:custom_name="custom"] 1
+give @s minecraft:bat_spawn_egg[minecraft:item_name='{"fallback":"Custom Crafting Table","italic":false,"translate":"cct.item:custom_crafting_table"}',minecraft:custom_model_data=32119,minecraft:entity_data={id:"minecraft:armor_stand",CustomNameVisible:0b,Small:1b,Invisible:1b,CustomName:'{"text":"custom_craft"}'}]
